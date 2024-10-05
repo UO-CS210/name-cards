@@ -1,2 +1,4 @@
 # name-cards
-Generate cards to help memorize student names, from UO Duckweb records
+Generate cards to help memorize student names, from UO Duckweb records.
+
+Step-by-step instructions in 
