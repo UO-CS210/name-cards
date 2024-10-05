@@ -6,6 +6,9 @@
     . env/bin/activate
     pip install bs4
     ```
+    Alternatively, `pip install -r requirements.txt`, which will
+    install a compatible version of Beautiful Soup 4, but the most
+    recent version (`install bs4`) should work fine. 
 1.  In Duckweb, choose "Course Administration Center", choose the 
      term, and choose "View Class Photos" for your class. You 
     should get a page of labeled photos for your students.
