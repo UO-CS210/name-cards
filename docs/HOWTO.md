@@ -32,9 +32,12 @@
    This will include a bunch of JPEG files with names that are easy 
    for LaTeX to digest. 
 4. Use `cards.py` to produce `photos.tex` from the `photos.csv` file 
-     created by
-    `scrape.py`.  Again, you _can_ specify different paths for input 
-   and output files, but you probably don't want to. 
+   created by `scrape.py`.  
+   ```commandline
+   python3 cards.py
+   ```
+   Again, you _can_ specify different paths 
+   for input and output files, but you probably don't want to. 
 5. Run LaTeX on the `data/cards.tex`. Do _not_ cd into the data 
    directory before you run LaTeX, and don't drag the `cards.tex` 
    file icon onto your TeX application, unless you want to take 
